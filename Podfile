@@ -6,6 +6,5 @@ target 'includle' do
   use_frameworks!
 
   # Pods for includle
-  pod 'PMSuperButton'
 
 end

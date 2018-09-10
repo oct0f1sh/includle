@@ -7,77 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2244521B025918998085FF1969B39F1C /* Pods-includle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A9D324679CF9E9C8689AC7A3A1BED /* Pods-includle-dummy.m */; };
-		59F8ECF755413CE0A2C40744FEEA450A /* Pods-includle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5528AFD4DE6AF8C1FF645CC3458CD321 /* Pods-includle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87C2B487FB1DC2CB2B862BEB65D67EEF /* PMSuperButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD312404DC133FB7FDECA25E6292CF2 /* PMSuperButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1036C57EDFC08720BE4FEC75DF60024 /* PMSuperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 160E5BC920135E9CCEFAFA1B95278898 /* PMSuperButton-dummy.m */; };
-		CE485B1E4121A33C4CC56E150C6FEDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CF9A813528DE75214A1BED1B1AFB28B0 /* PMSuperButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0F363261BA036BA74CE811ABBBA32 /* PMSuperButton.swift */; };
-		F68DBD04FE6F683C20554692CBD6B3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		94DE871E0BA74D5AD7B2E3E9F375D99A /* Pods-includle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A9D324679CF9E9C8689AC7A3A1BED /* Pods-includle-dummy.m */; };
+		BC8D30979BFE37E52C29401320C1DE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E7FF09F861B4E6C65376FF54CA2C3BE2 /* Pods-includle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5528AFD4DE6AF8C1FF645CC3458CD321 /* Pods-includle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		79D1328500E9BE4879FFAF2C31B5A23D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 584C6AB52DA3F6C1B2F9F572D0568496;
-			remoteInfo = PMSuperButton;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		160E5BC920135E9CCEFAFA1B95278898 /* PMSuperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMSuperButton-dummy.m"; sourceTree = "<group>"; };
 		2285C043F765E412CC828F2377D0344D /* Pods-includle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-includle.modulemap"; sourceTree = "<group>"; };
-		315A24DC86BAFC090F7B6C721D7487CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EF1D72B4558B68881A19268977FD735 /* Pods-includle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-includle.debug.xcconfig"; sourceTree = "<group>"; };
-		47B58AF460C5F6575E7C33A0618CD774 /* Pods_includle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_includle.framework; path = "Pods-includle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5528AFD4DE6AF8C1FF645CC3458CD321 /* Pods-includle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-includle-umbrella.h"; sourceTree = "<group>"; };
-		56D0F363261BA036BA74CE811ABBBA32 /* PMSuperButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMSuperButton.swift; path = Sources/PMSuperButton.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69BF158E4D807FF0C788E6757CE2AB05 /* PMSuperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMSuperButton-prefix.pch"; sourceTree = "<group>"; };
-		71D1A7553E233A7B9C9A2ACF639E9743 /* PMSuperButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PMSuperButton.modulemap; sourceTree = "<group>"; };
 		7532A0C8A07689B57F7EBB0CA6715775 /* Pods-includle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-includle-frameworks.sh"; sourceTree = "<group>"; };
 		75C68230C17C80FFAF2508DB77FE6B41 /* Pods-includle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-includle-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B2A9D324679CF9E9C8689AC7A3A1BED /* Pods-includle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-includle-dummy.m"; sourceTree = "<group>"; };
-		86A5735633715437FBA4FF6B8D6CECFC /* PMSuperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMSuperButton.framework; path = PMSuperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD312404DC133FB7FDECA25E6292CF2 /* PMSuperButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMSuperButton-umbrella.h"; sourceTree = "<group>"; };
 		A755DBC65677BFB446F52957CF230068 /* Pods-includle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-includle-acknowledgements.plist"; sourceTree = "<group>"; };
 		D26FC9FF01FA4C620449F89FEDB87FC6 /* Pods-includle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-includle.release.xcconfig"; sourceTree = "<group>"; };
 		D7FE7D8DA339D42FF22E1E3AFBA24374 /* Pods-includle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-includle-resources.sh"; sourceTree = "<group>"; };
 		DB492E392D5FBC20C82C22B8A79C28D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAD0DCF2AFF32CA8CD66B748DF9083A7 /* PMSuperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMSuperButton.xcconfig; sourceTree = "<group>"; };
+		ED36726CFCD9C9384611A4B00FF15DB3 /* Pods_includle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_includle.framework; path = "Pods-includle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		115E326697D2F11E1F85622CE850D89F /* Frameworks */ = {
+		8FD751E041F5B1F2AE12BD1DE5946156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68DBD04FE6F683C20554692CBD6B3B5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3448A8FA1C68CEF8045BF28734CAAE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE485B1E4121A33C4CC56E150C6FEDBF /* Foundation.framework in Frameworks */,
+				BC8D30979BFE37E52C29401320C1DE61 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DFF25B77C947FD3208D3AA506B324A9 /* PMSuperButton */ = {
+		5CB0DD25D30B9FC3000A8C4121491331 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56D0F363261BA036BA74CE811ABBBA32 /* PMSuperButton.swift */,
-				D98BE62F85093BBEA7D8A0FC3896A38D /* Support Files */,
+				ED36726CFCD9C9384611A4B00FF15DB3 /* Pods_includle.framework */,
 			);
-			name = PMSuperButton;
-			path = PMSuperButton;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -88,21 +56,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63628475A454A0138C0816F71969788D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1DFF25B77C947FD3208D3AA506B324A9 /* PMSuperButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				63628475A454A0138C0816F71969788D /* Pods */,
-				D24E2C2C3CE2CDEA6523F9776DFA699E /* Products */,
+				5CB0DD25D30B9FC3000A8C4121491331 /* Products */,
 				F01FF7C5DAD657359729107877A8AC1B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -133,29 +92,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D24E2C2C3CE2CDEA6523F9776DFA699E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				86A5735633715437FBA4FF6B8D6CECFC /* PMSuperButton.framework */,
-				47B58AF460C5F6575E7C33A0618CD774 /* Pods_includle.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D98BE62F85093BBEA7D8A0FC3896A38D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				315A24DC86BAFC090F7B6C721D7487CC /* Info.plist */,
-				71D1A7553E233A7B9C9A2ACF639E9743 /* PMSuperButton.modulemap */,
-				FAD0DCF2AFF32CA8CD66B748DF9083A7 /* PMSuperButton.xcconfig */,
-				160E5BC920135E9CCEFAFA1B95278898 /* PMSuperButton-dummy.m */,
-				69BF158E4D807FF0C788E6757CE2AB05 /* PMSuperButton-prefix.pch */,
-				9BD312404DC133FB7FDECA25E6292CF2 /* PMSuperButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PMSuperButton";
-			sourceTree = "<group>";
-		};
 		F01FF7C5DAD657359729107877A8AC1B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,58 +103,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		93EEC6011B7DEA5E205F1763DA955FF3 /* Headers */ = {
+		15A5A0B5229F7BF0AC8A02CEC257EEDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F8ECF755413CE0A2C40744FEEA450A /* Pods-includle-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D875B888A702FC3A075B924E484E63D5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87C2B487FB1DC2CB2B862BEB65D67EEF /* PMSuperButton-umbrella.h in Headers */,
+				E7FF09F861B4E6C65376FF54CA2C3BE2 /* Pods-includle-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01C6DCC475A0B5DE5237A5997D5069C4 /* Pods-includle */ = {
+		FB6E5D86EE5081CB679E4A3650178C19 /* Pods-includle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B605616BBF41923CF1C47B0C61587ADB /* Build configuration list for PBXNativeTarget "Pods-includle" */;
+			buildConfigurationList = 370F560C1CBF69B680A680B7F5B5ED89 /* Build configuration list for PBXNativeTarget "Pods-includle" */;
 			buildPhases = (
-				7E4E5128168E4E541B66C9CCCC2A239F /* Sources */,
-				B3448A8FA1C68CEF8045BF28734CAAE6 /* Frameworks */,
-				93EEC6011B7DEA5E205F1763DA955FF3 /* Headers */,
+				5EAF8BB44DA0BA5FB1908895182E9B29 /* Sources */,
+				8FD751E041F5B1F2AE12BD1DE5946156 /* Frameworks */,
+				15A5A0B5229F7BF0AC8A02CEC257EEDD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5AC62AF1ED0F25D00B3B448CFF8FA072 /* PBXTargetDependency */,
 			);
 			name = "Pods-includle";
 			productName = "Pods-includle";
-			productReference = 47B58AF460C5F6575E7C33A0618CD774 /* Pods_includle.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		584C6AB52DA3F6C1B2F9F572D0568496 /* PMSuperButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 194CB6CCF275AA1E1EBCE931E47C7E45 /* Build configuration list for PBXNativeTarget "PMSuperButton" */;
-			buildPhases = (
-				07F3CB6131EB85E7D250B0D478262923 /* Sources */,
-				115E326697D2F11E1F85622CE850D89F /* Frameworks */,
-				D875B888A702FC3A075B924E484E63D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PMSuperButton;
-			productName = PMSuperButton;
-			productReference = 86A5735633715437FBA4FF6B8D6CECFC /* PMSuperButton.framework */;
+			productReference = ED36726CFCD9C9384611A4B00FF15DB3 /* Pods_includle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -238,83 +148,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D24E2C2C3CE2CDEA6523F9776DFA699E /* Products */;
+			productRefGroup = 5CB0DD25D30B9FC3000A8C4121491331 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				584C6AB52DA3F6C1B2F9F572D0568496 /* PMSuperButton */,
-				01C6DCC475A0B5DE5237A5997D5069C4 /* Pods-includle */,
+				FB6E5D86EE5081CB679E4A3650178C19 /* Pods-includle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07F3CB6131EB85E7D250B0D478262923 /* Sources */ = {
+		5EAF8BB44DA0BA5FB1908895182E9B29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1036C57EDFC08720BE4FEC75DF60024 /* PMSuperButton-dummy.m in Sources */,
-				CF9A813528DE75214A1BED1B1AFB28B0 /* PMSuperButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E4E5128168E4E541B66C9CCCC2A239F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2244521B025918998085FF1969B39F1C /* Pods-includle-dummy.m in Sources */,
+				94DE871E0BA74D5AD7B2E3E9F375D99A /* Pods-includle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5AC62AF1ED0F25D00B3B448CFF8FA072 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PMSuperButton;
-			target = 584C6AB52DA3F6C1B2F9F572D0568496 /* PMSuperButton */;
-			targetProxy = 79D1328500E9BE4879FFAF2C31B5A23D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		2C7FFDF72911F6FCC41B4F6195C6B632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD0DCF2AFF32CA8CD66B748DF9083A7 /* PMSuperButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PMSuperButton/PMSuperButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PMSuperButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PMSuperButton/PMSuperButton.modulemap";
-				PRODUCT_MODULE_NAME = PMSuperButton;
-				PRODUCT_NAME = PMSuperButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,45 +232,9 @@
 			};
 			name = Debug;
 		};
-		6F92AE0F2A41F1C03214FE70EB75C94A /* Debug */ = {
+		86EF4CEBC53FD876AEC270BA78C02446 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD0DCF2AFF32CA8CD66B748DF9083A7 /* PMSuperButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PMSuperButton/PMSuperButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PMSuperButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PMSuperButton/PMSuperButton.modulemap";
-				PRODUCT_MODULE_NAME = PMSuperButton;
-				PRODUCT_NAME = PMSuperButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9181332A04F621A1F16D044D8EC67DA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EF1D72B4558B68881A19268977FD735 /* Pods-includle.debug.xcconfig */;
+			baseConfigurationReference = D26FC9FF01FA4C620449F89FEDB87FC6 /* Pods-includle.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -446,13 +264,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -512,9 +329,9 @@
 			};
 			name = Release;
 		};
-		C556434F4312458AD18C6A27D6827D4B /* Release */ = {
+		DB02856E7698957CA742083AE0A22043 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D26FC9FF01FA4C620449F89FEDB87FC6 /* Pods-includle.release.xcconfig */;
+			baseConfigurationReference = 3EF1D72B4558B68881A19268977FD735 /* Pods-includle.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -544,26 +361,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		194CB6CCF275AA1E1EBCE931E47C7E45 /* Build configuration list for PBXNativeTarget "PMSuperButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F92AE0F2A41F1C03214FE70EB75C94A /* Debug */,
-				2C7FFDF72911F6FCC41B4F6195C6B632 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -573,11 +379,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B605616BBF41923CF1C47B0C61587ADB /* Build configuration list for PBXNativeTarget "Pods-includle" */ = {
+		370F560C1CBF69B680A680B7F5B5ED89 /* Build configuration list for PBXNativeTarget "Pods-includle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9181332A04F621A1F16D044D8EC67DA5 /* Debug */,
-				C556434F4312458AD18C6A27D6827D4B /* Release */,
+				DB02856E7698957CA742083AE0A22043 /* Debug */,
+				86EF4CEBC53FD876AEC270BA78C02446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
