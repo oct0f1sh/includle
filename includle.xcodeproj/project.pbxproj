@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		2D978CA6237B23ECA007D21A /* Pods_includle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4921517958341C8509D23D /* Pods_includle.framework */; };
 		AE854A56214600F700496072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854A55214600F700496072 /* AppDelegate.swift */; };
-		AE854A58214600F700496072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854A57214600F700496072 /* ViewController.swift */; };
-		AE854A5B214600F700496072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854A59214600F700496072 /* Main.storyboard */; };
+		AE854A58214600F700496072 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854A57214600F700496072 /* OnboardingViewController.swift */; };
+		AE854A5B214600F700496072 /* OnboardingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854A59214600F700496072 /* OnboardingView.storyboard */; };
 		AE854A5D214600FB00496072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE854A5C214600FB00496072 /* Assets.xcassets */; };
 		AE854A60214600FB00496072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854A5E214600FB00496072 /* LaunchScreen.storyboard */; };
-		AE854A69214606B500496072 /* BigButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854A68214606B500496072 /* BigButtonView.swift */; };
+		AEB6732821461E0D00CEA618 /* IntentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6732721461E0D00CEA618 /* IntentionViewController.swift */; };
+		AEB6732A21461EBB00CEA618 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6732921461EBB00CEA618 /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +23,13 @@
 		919490B19A07DF6A2C4517AD /* Pods-includle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-includle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-includle/Pods-includle.debug.xcconfig"; sourceTree = "<group>"; };
 		AE854A52214600F700496072 /* includle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = includle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE854A55214600F700496072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE854A57214600F700496072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE854A5A214600F700496072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE854A57214600F700496072 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AE854A5A214600F700496072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OnboardingView.storyboard; sourceTree = "<group>"; };
 		AE854A5C214600FB00496072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE854A5F214600FB00496072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE854A61214600FB00496072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE854A68214606B500496072 /* BigButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButtonView.swift; sourceTree = "<group>"; };
+		AEB6732721461E0D00CEA618 /* IntentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionViewController.swift; sourceTree = "<group>"; };
+		AEB6732921461EBB00CEA618 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AE854A54214600F700496072 /* includle */,
+				AE854A5C214600FB00496072 /* Assets.xcassets */,
 				AE854A53214600F700496072 /* Products */,
 				046D82B4CC543D146579F1E3 /* Pods */,
 				F7A13596208F5C3318818108 /* Frameworks */,
@@ -72,13 +75,13 @@
 		AE854A54214600F700496072 /* includle */ = {
 			isa = PBXGroup;
 			children = (
+				AEB673262146124100CEA618 /* Extensions */,
+				AEB673252146123B00CEA618 /* Helpers */,
+				AE854A6E214611ED00496072 /* Models */,
+				AE854A6C214611D700496072 /* View Controllers */,
+				AE854A6A214611CB00496072 /* Storyboards */,
 				AE854A672146069E00496072 /* Views */,
-				AE854A55214600F700496072 /* AppDelegate.swift */,
-				AE854A57214600F700496072 /* ViewController.swift */,
-				AE854A59214600F700496072 /* Main.storyboard */,
-				AE854A5C214600FB00496072 /* Assets.xcassets */,
-				AE854A5E214600FB00496072 /* LaunchScreen.storyboard */,
-				AE854A61214600FB00496072 /* Info.plist */,
+				AE854A6D214611D900496072 /* Supporting Files */,
 			);
 			path = includle;
 			sourceTree = "<group>";
@@ -86,9 +89,57 @@
 		AE854A672146069E00496072 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AE854A68214606B500496072 /* BigButtonView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AE854A6A214611CB00496072 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AE854A59214600F700496072 /* OnboardingView.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AE854A6C214611D700496072 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE854A57214600F700496072 /* OnboardingViewController.swift */,
+				AEB6732721461E0D00CEA618 /* IntentionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AE854A6D214611D900496072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE854A55214600F700496072 /* AppDelegate.swift */,
+				AE854A5E214600FB00496072 /* LaunchScreen.storyboard */,
+				AE854A61214600FB00496072 /* Info.plist */,
+				AEB6732921461EBB00CEA618 /* Style.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE854A6E214611ED00496072 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEB673252146123B00CEA618 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AEB673262146124100CEA618 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F7A13596208F5C3318818108 /* Frameworks */ = {
@@ -161,7 +212,7 @@
 			files = (
 				AE854A60214600FB00496072 /* LaunchScreen.storyboard in Resources */,
 				AE854A5D214600FB00496072 /* Assets.xcassets in Resources */,
-				AE854A5B214600F700496072 /* Main.storyboard in Resources */,
+				AE854A5B214600F700496072 /* OnboardingView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,21 +262,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE854A58214600F700496072 /* ViewController.swift in Sources */,
-				AE854A69214606B500496072 /* BigButtonView.swift in Sources */,
+				AE854A58214600F700496072 /* OnboardingViewController.swift in Sources */,
 				AE854A56214600F700496072 /* AppDelegate.swift in Sources */,
+				AEB6732821461E0D00CEA618 /* IntentionViewController.swift in Sources */,
+				AEB6732A21461EBB00CEA618 /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE854A59214600F700496072 /* Main.storyboard */ = {
+		AE854A59214600F700496072 /* OnboardingView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AE854A5A214600F700496072 /* Base */,
 			);
-			name = Main.storyboard;
+			name = OnboardingView.storyboard;
 			sourceTree = "<group>";
 		};
 		AE854A5E214600FB00496072 /* LaunchScreen.storyboard */ = {
@@ -360,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4PBGN25JV;
-				INFOPLIST_FILE = includle/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/includle/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P4PBGN25JV;
-				INFOPLIST_FILE = includle/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/includle/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

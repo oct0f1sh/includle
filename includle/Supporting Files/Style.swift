@@ -1,5 +1,5 @@
 //
-//  BigButtonView.swift
+//  Style.swift
 //  includle
 //
 //  Created by Duncan MacDonald on 9/9/18.
@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 
-@IBDesignable
-class BigButtonView: UIView {
-    
+struct Style {
+    struct button {
+        static let cornerRadius: CGFloat = 8
+    }
 }
