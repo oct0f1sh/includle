@@ -15,6 +15,8 @@
 		AE854A60214600FB00496072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854A5E214600FB00496072 /* LaunchScreen.storyboard */; };
 		AEB6732821461E0D00CEA618 /* IntentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6732721461E0D00CEA618 /* IntentionViewController.swift */; };
 		AEB6732A21461EBB00CEA618 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6732921461EBB00CEA618 /* Style.swift */; };
+		AEB6732C2146DFE100CEA618 /* IncludleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6732B2146DFE100CEA618 /* IncludleTextField.swift */; };
+		AEB6732E21472BDF00CEA618 /* RoomSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6732D21472BDF00CEA618 /* RoomSetupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AE854A61214600FB00496072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB6732721461E0D00CEA618 /* IntentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionViewController.swift; sourceTree = "<group>"; };
 		AEB6732921461EBB00CEA618 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		AEB6732B2146DFE100CEA618 /* IncludleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncludleTextField.swift; sourceTree = "<group>"; };
+		AEB6732D21472BDF00CEA618 /* RoomSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSetupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		AE854A672146069E00496072 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AEB6732B2146DFE100CEA618 /* IncludleTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			children = (
 				AE854A57214600F700496072 /* OnboardingViewController.swift */,
 				AEB6732721461E0D00CEA618 /* IntentionViewController.swift */,
+				AEB6732D21472BDF00CEA618 /* RoomSetupViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -243,10 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB6732C2146DFE100CEA618 /* IncludleTextField.swift in Sources */,
 				AE854A58214600F700496072 /* OnboardingViewController.swift in Sources */,
 				AE854A56214600F700496072 /* AppDelegate.swift in Sources */,
 				AEB6732821461E0D00CEA618 /* IntentionViewController.swift in Sources */,
 				AEB6732A21461EBB00CEA618 /* Style.swift in Sources */,
+				AEB6732E21472BDF00CEA618 /* RoomSetupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
